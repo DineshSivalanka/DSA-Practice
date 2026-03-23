@@ -3,6 +3,7 @@
 Problem Link:
 https://leetcode.com/problems/pascals-triangle/description/
  */
+import java.util.*;
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> ans=new ArrayList<>();
