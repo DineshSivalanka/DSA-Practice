@@ -4,7 +4,7 @@
 Problem Link:
 https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/
 */
-
+import java.util.*;
 class Solution { 
 
     public int countGoodSubstrings(String s) {
