@@ -1,9 +1,9 @@
 /*
-Find the index of left most 2
+Find the index of right most 2
  */
 
 class Main {
-    public static int search(int arr[],int target){
+    public static int right(int arr[],int target){
         int l=0,r=arr.length-1;
         while(l<=r){
             int mid=l+(r-l)/2;
@@ -17,6 +17,6 @@ class Main {
     public static void main(String[] args) {
       int arr[]={1,2,2,2,2,3};
       int target=2;
-      System.out.println(search(arr,target));
+      System.out.println(right(arr,target));
     }
 }
