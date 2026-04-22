@@ -7,8 +7,8 @@ https://leetcode.com/problems/clear-digits/
 
 class Solution {
     public String clearDigits(String s) {
-         Stack<Character> st=new Stack<>();
-          StringBuilder sb = new StringBuilder();
+        Stack<Character> st=new Stack<>();
+        StringBuilder sb = new StringBuilder();
         for(int i=0;i<s.length();i++){
             char temp=s.charAt(i);
             if(Character.isLetter(temp)) st.push(temp);
