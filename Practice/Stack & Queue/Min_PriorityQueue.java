@@ -1,5 +1,5 @@
 /*
-PriorityQueue
+Min PriorityQueue
  */
 
 import java.util.*;
